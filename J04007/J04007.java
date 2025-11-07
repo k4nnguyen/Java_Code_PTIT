@@ -1,6 +1,6 @@
 import java.util.*;
-
-class NV{
+public class J04007{
+    public static class NV{
     private String id;
     private String ten;
     private String gt;
@@ -29,11 +29,11 @@ class NV{
         System.out.printf("%s %s %s %s %s %s %s",id,ten,gt,dob,dc,mst,hd);
     }
 }
-public class J04007{
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         NV a = new NV(scanner.nextLine(),scanner.nextLine(),scanner.nextLine(),scanner.nextLine(),scanner.nextLine(),scanner.nextLine());
         a.Out();
+        scanner.close();
     }   
 }

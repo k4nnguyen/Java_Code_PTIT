@@ -1,4 +1,8 @@
 import java.util.*;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9bb415c88dae3e7443eb054c096368b74f288451
 public class J05025 {
     public static String getMa(String s)
     {
@@ -48,4 +52,8 @@ public class J05025 {
             System.out.println(x);
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9bb415c88dae3e7443eb054c096368b74f288451
